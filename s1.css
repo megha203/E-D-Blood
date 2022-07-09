@@ -1,0 +1,128 @@
+@charset "UTF-8";
+nav,footer,div{
+display: block;
+}
+html,body,footer,nav,header{
+padding:0;
+margin:0;
+}
+.banner1
+{
+background-color: red;
+padding: 10px;
+text-shadow: transparent;
+text-align: center;
+color: white;
+height: 40px;
+}
+.banner2{
+	display:inline;
+	background-color: #fffff7;
+	padding-top: 5px;
+	color: gray;
+}
+.banner3{
+	display:block;
+	background-color: gold;
+	height: 5px;
+	width: 100%;
+}
+nav{
+	text-align: center;
+	display: inline;
+background-color:#11233b;
+}
+li {
+	padding-left: 20px;
+color: white;
+display: inline;
+}
+
+.logo{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: gray;
+	margin-left: 80px;
+	padding-top: 1px;
+}
+.banner2 a:hover
+{
+	color: #ffc107;
+
+}
+.banner2 a{
+	text-decoration:none; 
+	font-size: 20px;
+	line-height: 20px;
+	color: darkgrey;
+}
+.dropbtn {
+    background-color: transparent;
+    color:darkgrey;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropbtn {background-color: #fffff7;}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.banner4{
+	padding: 0;
+	background-color: gray;
+	display: inline-block;
+	width: 100%;
+}
+.banner4 a{
+	text-decoration-line: none;
+	color: white;
+}
+.banner5
+{
+	background-color: white;
+	display: block;
+	width: 100%;
+	height: 2px;
+}
+.image{
+	color: white;
+	width: 1880;
+	height: 1980;
+	 position: relative;
+    text-align: center;
+   
+}
+.text
+{
+	
+	 position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+/*html{background: url(ace.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
